@@ -19,4 +19,9 @@ function draw() {// Draw significa dibuixar
   arc(250,260,60,35,PI,0);//cella esquerra
   
   line(325,245,375,245);//cella dreta:els dos primers números són la X
+    // Nariz
+  noFill();
+  line(300,285,290,325);
+  line(300,285,310,325);
+  arc(300,325,30,20,0,PI);
 }

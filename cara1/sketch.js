@@ -13,6 +13,9 @@ function draw() {// Draw significa dibuixar
   ellipse(252,272,20,20)
   fill(0)
   ellipse(352,272,20,20)
+    fill(255)
+   ellipse(252,267,10,10)
+  ellipse(352,267,10,10)
   fill(255,0,0);// El color de la cara
   arc(301,350,115,50,0,PI)
   fill(255)

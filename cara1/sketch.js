@@ -15,11 +15,13 @@ function draw() {// Draw significa dibuixar
   ellipse(352,272,20,20)
   fill(255,0,0);// El color de la cara
   arc(301,350,115,50,0,PI)
+  fill(255)
+   ellipse(252,267,10,10)
+  ellipse(352,267,10,10)
    noFill();// no omplis de color la cella
   arc(250,260,60,35,PI,0);//cella esquerra
-  
   line(325,245,375,245);//cella dreta:els dos primers números són la X
-    // Nariz
+  // Nariz
   noFill();
   line(300,285,290,325);
   line(300,285,310,325);
